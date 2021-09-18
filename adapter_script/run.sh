@@ -132,6 +132,7 @@ python run_tc.py
   --overwrite_cache False
   --test_on_sub_datasets $SUB_DATASETS
   $MAX_SAMPLES_ENABLED
+  --use_adapters True
 "
 #  --label_smoothing_factor 0.1 \ # does not work with custom loss function
 #  --resume_from_checkpoint $DIR/checkpoint-$CHECKPOINT
