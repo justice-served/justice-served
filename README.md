@@ -2,6 +2,13 @@
 NLP Project: binary classification of criticality for Swiss legal cases (i.e. likelihood of a case being referred to the supreme court)
 
 
+Here are the dependencies:
+
+```bash
+conda install -c pytorch pytorch cpuonly
+pip install -r adapter_script/requirements.txt
+pip install -U adapter-transformers
+```
 
 I've been trying to run like this:
 
