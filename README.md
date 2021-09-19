@@ -18,6 +18,11 @@ You can then connect to the VM via SSH with the following command:
 gcloud beta compute ssh --zone "us-east1-b" "justice-served-2"  --project "maximal-copilot-324819"
 ```
 
+## Unloading the Data
+
+The Criticality data are found in the `text.zip` file shared over telegram by Joel. Unzip that file and place it in
+the `adapter_script/data/` directory.
+
 ## Running the Script
 
 Here are the dependencies:
